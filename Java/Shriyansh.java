@@ -1,0 +1,32 @@
+class Shriyansh{
+ public static void main(String[] args)
+{
+if(arr_size<3)
+{
+System.out.print("invalid input");
+return;
+}
+{
+int First = arr[0];
+for(int i=1; i<arr_size; i++)
+if(arr[i]> first)
+First = arr[i];
+
+int second = integer.Min_value;
+for(int i=0; i<arr_size;i++)
+if(arr[i]> second && arr[i]<first)
+second = arr[i];
+
+int third = third.Min_value;
+for (int i=0; i<arr_size; i++)
+if(arr[i]>third && arr[i]<second)
+	third = arr[i]);
+System.out.printf(" The Third largest "+"element is %d/n" , third);
+} 
+public static void main(String[]args)
+{
+int arr[]={12,13,1,10,34,16};
+int n = arr.length;
+third largest(arr, n);
+}
+}
